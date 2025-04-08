@@ -1,0 +1,37 @@
+button {
+  width: 150px;         
+  height: 100px;        
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  background-color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-whatnot {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 5px; 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.clicked {
+  background-color: #04AA6D; 
+  color: white;
+}
+
+
+button:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button12 {
+  
+  background-color: #04AA6D;
+  
+}
